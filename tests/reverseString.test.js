@@ -1,3 +1,4 @@
+import { reverseStr } from "../js/reverseString"
 
 test('reverse a word', () => {
     expect(reverseStr('hello')).toBe('olleh')
